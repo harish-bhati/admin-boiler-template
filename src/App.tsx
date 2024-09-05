@@ -9,9 +9,8 @@ import List from "./pages/List";
 function App() {
   return (
     <Router>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <main>
-        <Header />
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/list" element={<List />} />
