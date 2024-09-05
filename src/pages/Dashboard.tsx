@@ -1,8 +1,14 @@
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+
 const Dashboard = () => {
   return (
-    <section className="sidebar">
-      <p>Dashboard data</p>
+    
+    <section className="flex">
+      <Sidebar/>
+      <Header/>
     </section>
+    
   )
 }
 
