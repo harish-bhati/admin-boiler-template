@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import { DashboardIcon } from './../assets/icons/DashboardIcon';
-import { DataIcon } from './../assets/icons/DataIcon';
-import { FormIcon } from './../assets/icons/FormIcon';
-import { TableIcon } from './../assets/icons/TableIcon';
-import { StatisticsIcon } from './../assets/icons/StatisticsIcon';
+import { DashboardIcon } from '../assets/icons/DashboardIcon';
+import { DataIcon } from '../assets/icons/DataIcon';
+import { FormIcon } from '../assets/icons/FormIcon';
+import { TableIcon } from '../assets/icons/TableIcon';
+import { StatisticsIcon } from '../assets/icons/StatisticsIcon';
 
 const Sidebar = () => {
   return (

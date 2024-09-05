@@ -4,3 +4,4 @@ export * from './FormIcon';
 export * from './TableIcon';
 export * from './StatisticsIcon';
 export * from './SearchIcon';
+export * from './PlusIcon';

@@ -1,31 +1,27 @@
 import React from "react";
-import { DashboardIcon } from "../assets/icons";
-import { SearchIcon } from "../assets/icons";
-
+import { DashboardIcon } from "../assets/icons/DashboardIcon";
+import { SearchIcon } from "../assets/icons/SearchIcon";
+import { PlusIcon } from "../assets/icons/PlusIcon";
 
 const Header = () => {
   return (
     <header className="header  px-4 py-5 border-b w-full h-[74px]">
-      <div className="search-area flex items-center justify-between  ">
-        <div className="flex items-center gap-5">
-        <h1 className="menu-collapse">Dashboard</h1>
-        <form action="">
-        <div className="search-button flex gap-4 px-5 py-1 border rounded-full w-full max-w-[300px] items-center">
-          <SearchIcon/>
-          <input type="text" placeholder="search" />
+      <div className="flex items-center">
+        <h1 className="menu-collapse mr-2">Dashboard</h1>
+        <div className="flex justify-between w-full">
+          <form action="">
+            <div className="search-button flex gap-4 px-5 py-1 border rounded-full w-full max-w-[300px] items-center">
+              <SearchIcon/>
+              <input type="text" placeholder="search" />
+            </div>
+          </form>
+          <button className="border w-50 bg-black-dark text-white-light px-5 py-1 rounded-full flex items-center gap-1 self-end">
+            <PlusIcon /> <span>ADD</span>
+          </button>
         </div>
-        </form>
-        </div>
-        
-        {/* <div className="search-button flex gap-4 border w-64">
-          <span>+</span>
-          <input className="none" type="file" placeholder="Add" />
-        </div> */}
-        <button className="border w-50 bg-black-dark text-white-light px-5 py-1 rounded-full">+ <span>ADD</span></button>
       </div>
-      
     </header>
-  )
-}
+  );
+};
 
 export default Header;
