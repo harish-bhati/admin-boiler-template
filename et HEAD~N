@@ -1,0 +1,29 @@
+[33mcommit f1ab128a5a356e0272d7c02a00a51a8fb36833fa[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/base[m[33m, [m[1;31morigin/feature/base[m[33m, [m[1;32mfeature/component[m[33m)[m
+Author: Babita Gaur <bgaur@ex2india.com>
+Date:   Thu Sep 5 15:11:43 2024 +0530
+
+    icon attributes changed tocamelcase
+
+[33mcommit 3e8a98eacb8786da49ba32d2d38676a25c80b79d[m
+Author: Babita Gaur <bgaur@ex2india.com>
+Date:   Thu Sep 5 15:01:17 2024 +0530
+
+    header structure change , plus svg added
+
+[33mcommit e6508aa05177e9d5696c6e997283d99906f74f03[m
+Author: Babita Gaur <bgaur@ex2india.com>
+Date:   Thu Sep 5 11:51:17 2024 +0530
+
+    header footer and color theme added
+
+[33mcommit ee551516b2c80e46981aae9e12d0928a4c4152b0[m[33m ([m[1;32mmaster[m[33m)[m
+Author: harish-bhati <hbhati@ex2india.com>
+Date:   Tue Aug 27 12:08:32 2024 +0530
+
+    tailwind, scss and router integrated
+
+[33mcommit 88283e480d1c76cdc5207e1e4da07094f9386f1e[m
+Author: harish-bhati <hbhati@ex2india.com>
+Date:   Tue Aug 27 10:28:57 2024 +0530
+
+    project setup

@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from "./pages/Dashboard";
 import List from "./pages/List";
+import Card from "./components/Card";
 
 function App() {
   return (
