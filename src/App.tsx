@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from "./pages/Dashboard";
 import List from "./pages/List";
 import Card from "./components/Card";
+import Invoice from './pages/Invoice';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/list" element={<List />} />
+          <Route path="/Invoice" element={<Invoice />} />
         </Routes>
       </main>
     </Router>
