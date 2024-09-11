@@ -5,3 +5,5 @@ export * from './TableIcon';
 export * from './StatisticsIcon';
 export * from './SearchIcon';
 export * from './PlusIcon';
+export * from './EditIcon';
+export * from './DeleteIcon';
