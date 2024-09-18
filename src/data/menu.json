@@ -1,0 +1,24 @@
+{
+  "title": "Dashboard",
+  "logo": "LOGO",
+  "menus": [
+    {
+      "id": 1,
+      "label": "Dashboard",
+      "icon": "DashboardIcon",
+      "path": "/"
+    },
+    {
+      "id": 2,
+      "label": "Projects",
+      "icon": "DataIcon",
+      "path": "/list"
+    },
+    {
+      "id": 3,
+      "label": "Invoice",
+      "icon": "StatisticsIcon",
+      "path": "/invoice"
+    }
+  ]
+}

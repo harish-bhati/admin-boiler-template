@@ -5,22 +5,18 @@ import Table from "../components/Table";
 import CardList from "../components/CardList";
 const List = () => {
   return (
-    <section className="flex">
-    <Sidebar />
-    <main className="flex flex-col w-full">
-    <Header/>
-    <section>
-      <Iframe/>
-      <Table/>
-    </section>
-    <section>
-      <CardList/>
-      <div>
-        <h1>Calender</h1>
-      </div>
-    </section>
-  </main>
-</section>
+    <>
+      <section>
+        <Iframe/>
+        <Table/>
+      </section>
+      <section>
+        <CardList/>
+        <div>
+          <h1>Calender</h1>
+        </div>
+      </section>
+    </>
   )
 }
 

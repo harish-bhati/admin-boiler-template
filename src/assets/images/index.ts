@@ -1,5 +1,9 @@
-import Calender from './Calender.png';
-import Projects from './Projects.png';
-import Workers from './Worker.png';
+import calender from './Calender.png';
+import projects from './Projects.png';
+import workers from './Worker.png';
 
-export {Calender,Projects,Workers}
+export {
+  calender,
+  projects,
+  workers
+}
