@@ -7,3 +7,40 @@
       font-family: "Inter-Regular", system-ui, sans-serif;
     }
   }
+@layer base {
+    @font-face {
+      font-family: 'Inter-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/assets/fonts/Inter-Regular.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'Inter-Bold';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/assets/fonts/Inter-Bold.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'Inter-Medium';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/assets/fonts/Inter-Medium.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'lato-regular';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/assets/fonts/lato-regular.woff2) format('woff2');
+    }
+    @font-face {
+      font-family: 'lato-bold';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/assets/fonts/lato-bold.woff2) format('woff2');
+    }
+  }

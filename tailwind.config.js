@@ -17,7 +17,8 @@ module.exports = {
           dark: '#F5F5F5',
         },
         black: {
-          light: '#5b6b79',
+          light: '#1d2630',
+          lighter:"#5b6b79",
           dark: '#000',
         },
         grey: {
@@ -26,26 +27,31 @@ module.exports = {
         blue:{
           light: '#3366ff14',
           lighter: '#3366ff',
+          dark: '#4680ff',
         },
         green:{
           lighter: '#ccf9b6',
-          light: '#cbfffb',
-          dark: '#25d366',
+          dark:"#2ca87f",
         },
         orange:{
-          light: '#DB970E',
+          light: '#e58a00',
         },
         pink:{
           dark: '#fe3bab',
         },
         green:{
-          dark:"#137c0d"
+          
+        },
+        red:{
+          medium:"#D62626"
         }
       },
       fontFamily:{
         'bold':['Inter-Bold'],
         'Medium':['Inter-Medium'],
         'Regular':['Inter-Regular'],
+        'latoR':['lato-regular'],
+        'latoB':['lato-bold'],
       }
     },
   },
