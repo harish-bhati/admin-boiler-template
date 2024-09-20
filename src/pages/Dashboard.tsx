@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div>
         <Banner />
       </div>
-      <div className="grid grid-cols-2 gap-6 p-5 w-full h-[calc(100vh-74px)]">
+      <div className="grid grid-cols-2 gap-6 p-5 w-full">
         <Card />
         <Calender />
         <Projects />
