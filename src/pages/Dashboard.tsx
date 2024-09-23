@@ -2,14 +2,16 @@ import Card from "../components/Card";
 import Calender from "../components/Calender";
 import Projects from "../components/Projects";
 import Workers from "../components/Workers";
+// import LineChartData from "../components/LineChart";
 
 const Dashboard = () => {
   return (
-    <div className="grid grid-cols-2 gap-6 p-5 w-full h-[calc(100vh-74px)]">
+    <div className="px-5 py-7">
       <Card />
-      <Calender />
+      {/* <LineChartData /> */}
+      {/* <Calender />
       <Projects />
-      <Workers />
+      <Workers /> */}
     </div>
   );
 };
