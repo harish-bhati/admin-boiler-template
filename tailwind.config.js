@@ -22,12 +22,15 @@ module.exports = {
           dark: '#000',
         },
         grey: {
+          light:'#131920',
           dark:'#1d2630',
         },
         blue:{
+          verylight:'#edf2ff',
           light: '#3366ff14',
           lighter: '#3366ff',
           dark: '#4680ff',
+
         },
         green:{
           lighter: '#ccf9b6',

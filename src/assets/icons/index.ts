@@ -7,3 +7,4 @@ export * from './SearchIcon';
 export * from './PlusIcon';
 export * from './EditIcon';
 export * from './DeleteIcon';
+export * from './MenuDropdown';
