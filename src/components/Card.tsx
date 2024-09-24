@@ -1,6 +1,5 @@
 import React from "react";
 import { EarningIcon, PageIcon } from "../assets/icons";
-import { CartesianGrid } from "recharts";
 import { TaskIcon } from "../assets/icons/TaskIcon";
 import { DownloadIcon } from "../assets/icons/DownloadIcon";
 

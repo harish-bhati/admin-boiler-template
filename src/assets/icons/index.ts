@@ -11,3 +11,4 @@ export * from './EarningIcon';
 export * from './PageIcon';
 export * from './TaskIcon';
 export * from './DownloadIcon';
+export * from './MenuDropdown';
