@@ -3,18 +3,16 @@ import Sidebar from "../components/Sidebar";
 import Iframe from "../components/Iframe";
 import Table from "../components/Table";
 import CardList from "../components/CardList";
-const List = () => {
+import Form from "../components/Form";
+const FormValidation = () => {
   return (
     <>
       <section>
-        <Iframe/>
-        <Table/>
-      </section>
-      <section>
-        <CardList/>
+       <Form/>
+       
       </section>
     </>
-  )
-}
+  );
+};
 
-export default List;
+export default FormValidation;

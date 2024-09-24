@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import List from "./pages/List";
 import Invoice from './pages/Invoice';
 import Login from "./pages/Login";
+import FormValidation from "./pages/FormValidation";
 
 function App() {
   const Layout = () => {
@@ -37,7 +38,11 @@ function App() {
         {
           path: "/invoice",
           element: <Invoice />,
-        }
+        },
+        {
+          path: "/formvalidation",
+          element: <FormValidation/>,
+        },
       ],
     },
     {

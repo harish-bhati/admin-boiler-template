@@ -13,7 +13,7 @@ const iconMap: { [key: string]: React.ComponentType } = {
 const Sidebar = () => {
   console.log("menu list", sidebarList);
   return (
-    <aside className="sidebar w-[250px] border-r border-dotted border-slate-400 h-dvh">
+    <aside className="sidebar w-[250px] border-r border-dotted border-slate-400 h-dvh bg-[#f8f9fa]">
       <div className="container flex flex-col">
         <NavLink to="/" className="logo text-[25px] pl-6 py-2 mb-10">
           {sidebarList.logo}
