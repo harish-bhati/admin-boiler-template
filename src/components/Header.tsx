@@ -5,7 +5,7 @@ import { PlusIcon } from "../assets/icons/PlusIcon";
 
 const Header = () => {
   return (
-    <header className="header  px-4 py-5 border-b w-full">
+    <header className="header  px-4 py-5 border-b w-full bg-[#f8f9fa]">
       <div className="flex items-center">
         <h1 className="menu-collapse mr-2 font-latoB text-blue-dark">Dashboard</h1>
         <div className="flex justify-between w-full">
