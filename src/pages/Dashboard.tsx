@@ -5,25 +5,18 @@ import Workers from "../components/Workers";
 import Banner from "../components/Banner";
 import Transactions from "../components/Transactions";
 import TotalIncome from "../components/TotalIncome";
+// import LineChartData from "../components/LineChart";
 
 const Dashboard = () => {
   return (
-    <section>
-      <div>
-        <Banner />
+    <div className='px-5 py-7 space-y-6'>
+      <Banner />
+      <Card />
+      <div className='grid grid-cols-2 gap-5'>
+        <Transactions />
+        <TotalIncome />
       </div>
-      <div className="grid grid-cols-2 gap-6 p-5 w-full">
-        <Card />
-        <Calender />
-        {/* <Projects />
-        <Workers /> */}
-      </div>
-      <div className="grid grid-cols-2 gap-3 ">
-        <Transactions/>
-        <TotalIncome/>
-      </div>
-    </section>
+    </div>
   );
 };
-
 export default Dashboard;

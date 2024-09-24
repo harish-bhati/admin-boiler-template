@@ -7,4 +7,8 @@ export * from './SearchIcon';
 export * from './PlusIcon';
 export * from './EditIcon';
 export * from './DeleteIcon';
+export * from './EarningIcon';
+export * from './PageIcon';
+export * from './TaskIcon';
+export * from './DownloadIcon';
 export * from './MenuDropdown';
