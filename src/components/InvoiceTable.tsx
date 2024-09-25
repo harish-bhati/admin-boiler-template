@@ -7,7 +7,7 @@ const InvoiceTable = () => {
   <div className="table px-4 py-5 w-full">
     <table className="w-full border rounded-xl">
         <thead>
-        <tr className="text-left border-b rounded-xl">
+        <tr className="text-left border-b rounded-xl text-blue-primary bg-blue-secondary">
                 <th className="p-2">Invoice Number</th>
                 <th>Client Name</th>
                 <th>Role</th>

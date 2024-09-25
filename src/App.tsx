@@ -12,7 +12,7 @@ import FormValidation from "./pages/FormValidation";
 function App() {
   const Layout = () => {
     return (
-      <section className="flex">
+      <section className="flex bg-blue-bg">
         <Sidebar />
         <main className="flex flex-col w-full">
           <Header />

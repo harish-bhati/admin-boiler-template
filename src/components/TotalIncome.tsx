@@ -10,14 +10,14 @@ const TotalIncome = () => {
         <MenuDropdown />
       </div>
       <img
-        className='m-auto w-[auto] h-[298px] text-center'
+        className='m-auto w-[auto] h-[298px] text-center bg-blue-primary'
         src={Circle}
         alt='calender'
       />
       <div className='grid grid-cols-2'>
-        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl'>
+        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl bg-blue-secondary border border-blue-border'>
           <div className='flex items-center gap-4'>
-            <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-blue-lighter'></span>
+            <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-blue-orange'></span>
             <div>
               <p className='text-[14px] text-black-dark font-latoB '>
                 Apple Inc.
@@ -26,9 +26,9 @@ const TotalIncome = () => {
           </div>
           <p className='text-[14px] text-black-dark font-latoB '>$210,000</p>
         </div>
-        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl'>
+        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl bg-blue-secondary border border-blue-border'>
           <div className='flex items-center gap-4'>
-            <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-red-medium'></span>
+            <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-blue-red'></span>
             <div>
               <p className='text-[14px] text-black-dark font-latoB '>
                 Apple Inc.
@@ -37,7 +37,7 @@ const TotalIncome = () => {
           </div>
           <p className='text-[14px] text-black-dark font-latoB '>$210,000</p>
         </div>
-        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl'>
+        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl bg-blue-secondary border border-blue-border'>
           <div className='flex items-center gap-4'>
             <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-green-900'></span>
             <div>
@@ -48,9 +48,9 @@ const TotalIncome = () => {
           </div>
           <p className='text-[14px] text-black-dark font-latoB '>$210,000</p>
         </div>
-        <div className=' p-4 justify-between px-4 bg-slate-50 m-3 rounded-2xl'>
+        <div className=' p-4 justify-between px-4 bg-blue-secondary border border-blue-border m-3 rounded-2xl'>
           <div className='flex items-center gap-4'>
-            <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-orange-light'></span>
+            <span className='h-2 w-2 inline-flex justify-center items-center rounded-xl bg-blue-green'></span>
             <div>
               <p className='text-[14px] text-black-dark font-latoB '>
                 Apple Inc.

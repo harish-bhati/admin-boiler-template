@@ -3,7 +3,7 @@ import { WelcomeBanner } from "../assets/images";
 
 const Form = () => {
   return (
-    <div className="text-[30px] font-latoB text-latoB first-letter p-4 bg-[#f8f9fa]">
+    <div className="text-[30px] font-latoB text-latoB first-letter p-4 bg-blue-bg">
       <h1 className="mb-3">Form Validation</h1>
       <div className="grid grid-cols-2 w-full gap-4">
         <div className="border rounded-2xl bg-white-light w-full">
@@ -38,7 +38,7 @@ const Form = () => {
               />
             </div>
             <button
-              className="bg-blue-dark text-white-light px-3 py-2 text-[12px] rounded-xl self-end"
+              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
               type="submit"
             >
               {" "}
@@ -78,7 +78,7 @@ const Form = () => {
               />
             </div>
             <button
-              className="bg-blue-dark text-white-light px-3 py-2 text-[12px] rounded-xl self-end"
+              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
               type="submit"
             >
               {" "}
@@ -110,7 +110,7 @@ const Form = () => {
               </div>
             </div>
             <button
-              className="bg-blue-dark text-white-light px-3 py-2 text-[12px] rounded-xl self-end"
+              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
               type="submit"
             >
               {" "}
@@ -142,7 +142,7 @@ const Form = () => {
               </div>
             </div>
             <button
-              className="bg-blue-dark text-white-light px-3 py-2 text-[12px] rounded-xl self-end"
+              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
               type="submit"
             >
               {" "}
@@ -157,12 +157,12 @@ const Form = () => {
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
               data-dropdown-trigger="hover"
-              className="text-[14px] text-grey-dark p-3 border w-full hover:bg-blue-800 hover:text-white-light focus:outline-none font-medium rounded-lg  text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-[14px] bg-blue-primary text-blue-white hover:bg-blue-link p-3 border w-full hover:text-blue-white focus:outline-none font-medium rounded-lg  text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               type="button"
             >
               Dropdown button{" "}
               <svg
-                className="w-2.5 h-2.5 ms-3"
+                className="w-2.5 h-2.5 ms-3 "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
