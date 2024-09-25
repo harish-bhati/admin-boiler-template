@@ -9,7 +9,7 @@ import TotalIncome from "../components/TotalIncome";
 
 const Dashboard = () => {
   return (
-    <div className='px-5 py-7 space-y-6'>
+    <div className='px-5 py-7 space-y-6 bg-blue-bg'>
       <Banner />
       <Card />
       <div className='grid grid-cols-2 gap-5'>

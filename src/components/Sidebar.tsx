@@ -13,7 +13,7 @@ const iconMap: { [key: string]: React.ComponentType } = {
 const Sidebar = () => {
   console.log("menu list", sidebarList);
   return (
-    <aside className="sidebar w-[250px] border-r border-dotted border-slate-400 h-dvh bg-[#f8f9fa]">
+    <aside className="sidebar w-[250px] border-r border-dotted border-blue-border">
       <div className="container flex flex-col">
         <NavLink to="/" className="logo text-[25px] pl-6 py-2 mb-10">
           {sidebarList.logo}
@@ -26,11 +26,11 @@ const Sidebar = () => {
               return (
                 <li
                   key={id}
-                  className="list-none active:text-blue-lighter px-4 py-2 mx-2 my-1  hover:text-blue-lighter hover:bg-blue-light rounded-lg"
+                  className="list-none active:text-blue-primary px-4 py-2 mx-2 my-1  hover:text-blue-primary hover:bg-blue-secondary rounded-lg"
                 >
                   <NavLink className="flex gap-3 align-middle " to={path}>
                     {IconComponent && <IconComponent />}
-                    <span className="text-black-light active:text-blue-lighter hover:text-blue-lighter">
+                    <span className="text-blue-label active:text-blue-primary hover:text-blue-primary">
                       {label}
                     </span>
                   </NavLink>

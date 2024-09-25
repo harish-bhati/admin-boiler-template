@@ -6,7 +6,7 @@ const Table = () => {
   <div className="table px-4 py-5 w-full">
     <table className="w-full border rounded-xl">
         <thead>
-        <tr className="text-center border-b rounded-xl text-blue-dark bg-blue-verylight font-latoB">
+        <tr className="text-center border-b rounded-xl text-blue-primary bg-blue-secondary font-latoB">
                 <th className="p-2">Project ID</th>
                 <th>Project Name</th>
                 <th>Location</th>

@@ -11,40 +11,72 @@ module.exports = {
         xxl: "1441px",
       },
       colors: {
-        white: {
-          light: "#fff",
-          medium: "#D3E2F7",
-          dark: "#F5F5F5",
+        orange:{
+          base:'var(--color-base)',
+          white:'var(--color-white)',
+          primary:'var(--color-primary)',
+          secondary:'var(--color-secondary)',
+          label:'var(--color-label)',
+          input:'var(--color-input)',
+          border:'var(--color-border)',
+          link:'var(--color-link)',
+          bg:'var(--color-bg)',
+          orange:'var(--color-orange)',
+          yellow:'var(--color-yellow)',
+          green:'var(--color-green)',
+          red:'var(--color-red)',
         },
-        black: {
-          light: "#1d2630",
-          lighter: "#5b6b79",
-          dark: "#000",
+        blue:{
+          base:'var(--color-base)',
+          white:'var(--color-white)',
+          primary:'var(--color-primary)',
+          secondary:'var(--color-secondary)',
+          label:'var(--color-label)',
+          input:'var(--color-input)',
+          border:'var(--color-border)',
+          link:'var(--color-link)',
+          bg:'var(--color-bg)',
+          orange:'var(--color-orange)',
+          yellow:'var(--color-yellow)',
+          green:'var(--color-green)',
+          red:'var(--color-red)',
         },
-        grey: {
-          light: "#131920",
-          dark: "#1d2630",
-        },
-        blue: {
-          light: "#4680ff",
-          verylight: "#edf2ff",
-          lighter: "#3366ff",
-          dark: "#4680ff",
-        },
-        green: {
-          lighter: "#ccf9b6",
-          dark: "#2ca87f",
-        },
-        orange: {
-          light: "#e58a00",
-        },
-        pink: {
-          dark: "#fe3bab",
-        },
-        green: {},
-        red: {
-          medium: "#D62626",
-        },
+        
+  
+        // white: {
+        //   light: "#fff",
+        //   medium: "#D3E2F7",
+        //   dark: "#F5F5F5",
+        // },
+        // black: {
+        //   light: "#1d2630",
+        //   lighter: "#5b6b79",
+        //   dark: "#000",
+        // },
+        // grey: {
+        //   light: "#131920",
+        //   dark: "#1d2630",
+        // },
+        // blue: {
+        //   light: "#4680ff",
+        //   verylight: "#edf2ff",
+        //   lighter: "#3366ff",
+        //   dark: "#4680ff",
+        // },
+        // green: {
+        //   lighter: "#ccf9b6",
+        //   dark: "#2ca87f",
+        // },
+        // orange: {
+        //   light: "#e58a00",
+        // },
+        // pink: {
+        //   dark: "#fe3bab",
+        // },
+        // green: {},
+        // red: {
+        //   medium: "#D62626",
+        // },
       },
       fontFamily: {
         bold: ["Inter-Bold"],
@@ -55,5 +87,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+    plugins: [],
 };
