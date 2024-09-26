@@ -12,7 +12,7 @@ const Banner = () => {
           The Brand new User Interface with power of Bootstrap Components.
           Explore the Endless possibilities with Able Pro.
         </p>
-        <button className='p-3 rounded-full border text-white-dark w-60 hover:bg-white-light hover:text-blue-dark translate-x-0'>
+        <button className='secondary max-w-64'>
           Exclusive on Themeforest
         </button>
       </div>

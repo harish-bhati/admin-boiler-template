@@ -127,13 +127,13 @@ const Transactions = () => {
       </div>
       <div className='flex items-center gap-4 pb-4 justify-center px-4 mt-5'>
         <a
-          className='py-2 px-6 border border-blue-border border-black-lighter rounded-full text-[14px] text-blue-label font-latoB '
+          className='secondary'
           href=''
         >
           View Transaction History
         </a>
         <a
-          className='py-2 px-6 rounded-full text-[14px] text-white-light font-latoB bg-blue-primary text-blue-white'
+          className='primary'
           href=''
         >
           Create New Transactions

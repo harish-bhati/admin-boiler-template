@@ -38,7 +38,7 @@ const Form = () => {
               />
             </div>
             <button
-              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
+              className="primary"
               type="submit"
             >
               {" "}
@@ -78,7 +78,7 @@ const Form = () => {
               />
             </div>
             <button
-              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
+              className="primary"
               type="submit"
             >
               {" "}
@@ -110,7 +110,7 @@ const Form = () => {
               </div>
             </div>
             <button
-              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
+              className="primary"
               type="submit"
             >
               {" "}
@@ -142,7 +142,7 @@ const Form = () => {
               </div>
             </div>
             <button
-              className="bg-blue-primary text-blue-white hover:bg-blue-link px-3 py-2 text-[12px] rounded-xl self-end"
+              className="primary"
               type="submit"
             >
               {" "}
@@ -157,7 +157,7 @@ const Form = () => {
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
               data-dropdown-trigger="hover"
-              className="text-[14px] bg-blue-primary text-blue-white hover:bg-blue-link p-3 border w-full hover:text-blue-white focus:outline-none font-medium rounded-lg  text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="primary inline-flex items-center"
               type="button"
             >
               Dropdown button{" "}

@@ -1,0 +1,55 @@
+%primary-btn {
+    @apply  border-[1px] border-solid text-center inline-block px-5 py-1 transition-all delay-100 ease-in-out;
+  }
+  
+  /* Button Bg Color*/
+  
+  @mixin btn($behaviour) {
+    @if $behaviour == primary {
+      .primary {
+        @extend %primary-btn;
+        @apply bg-blue-primary border px-4 py-2 rounded-[8px] text-blue-white hover:bg-blue-link transition-all delay-100  ease-in-out font-latoB text-[14px];
+      }
+    }
+
+  
+    @if $behaviour == secondary {
+      .secondary {
+        @extend %primary-btn;
+        @apply bg-blue-white border border-blue-border px-4 py-2 rounded-[8px] text-blue-primary hover:bg-blue-link hover:text-blue-white transition-all delay-100 font-latoB text-[14px] ease-in-out;
+      }
+    }
+}
+  
+//     @if $behaviour == outlined {
+//       .outlined {
+//         @extend %primary-btn;
+//         @apply bg-color-transparent hover:bg-color-secondary text-color-secondary hover:text-color-button-text border-color-base hover:border-color-transparent flex items-center justify-center gap-x-4;
+//       }
+//     }
+//   }
+  
+  /* Button Sizes*/
+  
+//   @mixin size($size) {
+//     @if $size == large {
+//       .large {
+//         @apply text-[18px] font-[Poppins-Semibold] leading-[28px] h-[60px];
+//       }
+//     }
+  
+//     @if $size == regular {
+//       .regular {
+//         @apply text-[16px] font-[Inter-Regular] leading-[24px] h-[40px];
+//       }
+//     }
+  
+//     @if $size == small {
+//       .small {
+//         @apply text-[14px] font-[Inter-Regular] leading-[16px] h-[40px];
+//       }
+//     }
+//   }
+  
+  @include btn(primary);
+  @include btn(secondary);
