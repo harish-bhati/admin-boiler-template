@@ -5,7 +5,7 @@ import { DeleteIcon, EditIcon } from "../assets/icons";
 const InvoiceTable = () => {
   return (
   <div className="table px-4 py-5 w-full">
-    <table className="w-full border rounded-xl">
+    <table className="w-full border rounded-xl bg-blue-white">
         <thead>
         <tr className="text-left border-b rounded-xl text-blue-primary bg-blue-secondary">
                 <th className="p-2">Invoice Number</th>

@@ -4,7 +4,7 @@ import { Graph1 } from "../assets/images";
 
 const Transactions = () => {
   return (
-    <div className='card-container shadow-sm rounded-xl min-w-[150px] border border-blue-border'>
+    <div className='card-container shadow-sm rounded-xl min-w-[150px] border border-blue-border bg-blue-white' >
       <div className='flex justify-between items-center px-4 py-5 '>
         <h1 className='text-[16px] font-latoB mb-5 text-blue-label'>Total Income</h1>
         <MenuDropdown />

@@ -7,7 +7,7 @@ const Card = () => {
   const isDark = true;
   return (
     <div className='card-container grid grid-cols-4 gap-5'>
-      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border border-blue-border space-y-4'>
+      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border border-blue-border space-y-4 bg-blue-white'>
         <h1 className='flex gap-4 items-center text-blue-label font-latoB'>
           {" "}
           <EarningIcon />
@@ -27,7 +27,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border  border-blue-border space-y-4'>
+      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border  border-blue-border space-y-4 bg-blue-white'>
         <h1 className='flex gap-4 items-center text-blue-label font-latoB'>
           {" "}
           <PageIcon />
@@ -43,13 +43,13 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border border-blue-border space-y-4 '>
+      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border border-blue-border space-y-4 bg-blue-white'>
         <h1 className='flex gap-4 items-center text-blue-label font-latoB'>
           {" "}
           <TaskIcon />
           Total Task
         </h1>
-        <div className='p-4 bg-gray-100 flex gap-3 items-center rounded-xl bg-blue-secondary'>
+        <div className='p-4 flex gap-3 items-center rounded-xl bg-blue-secondary'>
           <div>Bar Graph</div>
           <div className='ml-auto'>
             <span className='font-bold text-[30px]'>1568</span>
@@ -59,13 +59,13 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border border-blue-border space-y-4'>
+      <div className='shadow-sm rounded-xl px-4 py-3 min-w-[150px] border border-blue-border space-y-4 bg-blue-white'>
         <h1 className='flex gap-4 items-center text-blue-label font-latoB'>
           {" "}
           <DownloadIcon />
           Download
         </h1>
-        <div className='p-4 bg-gray-100 flex gap-3 items-center rounded-xl bg-blue-secondary'>
+        <div className='p-4 flex gap-3 items-center rounded-xl bg-blue-secondary'>
           <div>Bar Graph</div>
           <div className='ml-auto'>
             <span className='font-bold text-[30px]'>$200</span>
