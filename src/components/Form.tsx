@@ -18,7 +18,7 @@ const Form = () => {
                 Email Address
               </label>
               <input
-                className="text-[13px] font-Regular text-black-lighter border p-4 rounded-xl"
+                className="input"
                 type="text"
                 placeholder="Enter your Email Address"
               />
@@ -32,7 +32,7 @@ const Form = () => {
                 Password
               </label>
               <input
-                className="text-[13px] font-Regular text-black-lighter border p-4 rounded-xl"
+                className="input"
                 type="password"
                 placeholder="Enter your Password"
               />
@@ -58,7 +58,7 @@ const Form = () => {
                 Email Address
               </label>
               <input
-                className="text-[13px] font-Regular text-black-lighter border p-4 rounded-xl"
+                className="input"
                 type="text"
                 placeholder="Enter your Email Address"
               />
@@ -72,7 +72,7 @@ const Form = () => {
                 Password
               </label>
               <input
-                className="text-[13px] font-Regular text-black-lighter border p-4 rounded-xl"
+                className="input"
                 type="password"
                 placeholder="Enter your Password"
               />

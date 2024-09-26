@@ -19,6 +19,12 @@
         @apply bg-blue-white border border-blue-border px-4 py-2 rounded-[8px] text-blue-primary hover:bg-blue-link hover:text-blue-white transition-all delay-100 font-latoB text-[14px] ease-in-out;
       }
     }
+    @if $behaviour == input {
+      .input {
+        @extend %primary-btn;
+        @apply border border-blue-border px-4 py-2 rounded-[8px] text-blue-input font-latoR text-[14px] text-left bg-blue-white;
+      }
+    }
 }
   
 //     @if $behaviour == outlined {
@@ -53,3 +59,4 @@
   
   @include btn(primary);
   @include btn(secondary);
+  @include btn(input);

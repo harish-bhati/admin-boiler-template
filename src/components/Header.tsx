@@ -10,14 +10,14 @@ const Header = () => {
         <h1 className="menu-collapse mr-2 font-latoB text-blue-link">Dashboard</h1>
         <div className="flex justify-between w-full">
           <form action="">
-            <div className="secondary search-button flex gap-4 max-w-[300px] items-center">
+            <div className="input search-button flex gap-4 max-w-[300px] items-center">
               <SearchIcon/>
-              <input type="text" placeholder="search" />
+              <input className="text-[14px]" type="text" placeholder="search" />
             </div>
           </form>
           
           <button className="primary flex items-center">
-            <PlusIcon /> <span>ADD</span>
+            <PlusIcon /> <span>Add</span>
           </button>
         </div>
       </div>
