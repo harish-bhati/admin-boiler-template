@@ -1,7 +1,7 @@
 import InvoiceTable from "../components/InvoiceTable";
 const Invoice = () => {
   return (
-    <section>
+    <section className="h-[calc(100vh-83px)] overflow-y-auto">
       <InvoiceTable/>
     </section>
   )

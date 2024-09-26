@@ -4,11 +4,9 @@ import CardList from "../components/CardList";
 const List = () => {
   return (
     <>
-      <section>
+      <section className="h-[calc(100vh-83px)] overflow-y-auto">
         <Iframe/>
         <Table/>
-      </section>
-      <section>
         <CardList/>
       </section>
     </>

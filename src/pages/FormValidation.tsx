@@ -7,7 +7,7 @@ import Form from "../components/Form";
 const FormValidation = () => {
   return (
     <>
-      <section>
+      <section className="h-[calc(100vh-83px)] overflow-y-auto">
        <Form/>
        
       </section>

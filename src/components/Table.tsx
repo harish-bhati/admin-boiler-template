@@ -4,7 +4,7 @@ import React from "react";
 const Table = () => {
   return (
   <div className="table px-4 py-5 w-full">
-    <table className="w-full border rounded-xl">
+    <table className="w-full border rounded-xl bg-blue-white">
         <thead>
         <tr className="text-center border-b rounded-xl text-blue-primary bg-blue-secondary font-latoB">
                 <th className="p-2">Project ID</th>

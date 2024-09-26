@@ -3,10 +3,10 @@ import { WelcomeBanner } from "../assets/images";
 
 const Form = () => {
   return (
-    <div className="text-[30px] font-latoB text-latoB first-letter p-4 bg-blue-bg">
+    <div className="text-[30px] font-latoB text-latoB first-letter p-4 bg-blue-bg ">
       <h1 className="mb-3">Form Validation</h1>
       <div className="grid grid-cols-2 w-full gap-4">
-        <div className="border rounded-2xl bg-white-light w-full">
+        <div className="border rounded-2xl bg-blue-white w-full">
           <h2 className="text-[14px] text-grey-dark p-4 border-b">On Submit</h2>
           <form className="px-4 py-4">
             <div className="flex flex-col gap-2 mb-3">
@@ -46,7 +46,7 @@ const Form = () => {
             </button>
           </form>
         </div>
-        <div className="border rounded-2xl bg-white-light w-full">
+        <div className="border rounded-2xl bg-blue-white w-full">
           <h2 className="text-[14px] text-grey-dark p-4 border-b">On Leave</h2>
           <form className="px-4 py-4">
             <div className="flex flex-col gap-2 mb-3">
@@ -86,7 +86,7 @@ const Form = () => {
             </button>
           </form>
         </div>
-        <div className="border rounded-2xl bg-white-light w-full">
+        <div className="border rounded-2xl bg-blue-white w-full">
           <h2 className="text-[14px] text-grey-dark p-4 border-b">Radio</h2>
           <form className="px-4 py-4">
             <div className="flex gap-2 ">
@@ -118,7 +118,7 @@ const Form = () => {
             </button>
           </form>
         </div>
-        <div className="border rounded-2xl bg-white-light w-full">
+        <div className="border rounded-2xl bg-blue-white w-full">
           <h2 className="text-[14px] text-grey-dark p-4 border-b">Checkbox</h2>
           <form className="px-4 py-4">
             <div className="flex gap-2 ">
@@ -150,7 +150,7 @@ const Form = () => {
             </button>
           </form>
         </div>
-        <div className="border rounded-2xl bg-white-light w-full">
+        <div className="border rounded-2xl bg-blue-white w-full">
           <h2 className="text-[14px] text-grey-dark p-4 border-b">Select</h2>
           <div className="p-4">
             <button
