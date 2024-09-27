@@ -41,42 +41,6 @@ module.exports = {
           green:'var(--color-green)',
           red:'var(--color-red)',
         },
-        
-  
-        // white: {
-        //   light: "#fff",
-        //   medium: "#D3E2F7",
-        //   dark: "#F5F5F5",
-        // },
-        // black: {
-        //   light: "#1d2630",
-        //   lighter: "#5b6b79",
-        //   dark: "#000",
-        // },
-        // grey: {
-        //   light: "#131920",
-        //   dark: "#1d2630",
-        // },
-        // blue: {
-        //   light: "#4680ff",
-        //   verylight: "#edf2ff",
-        //   lighter: "#3366ff",
-        //   dark: "#4680ff",
-        // },
-        // green: {
-        //   lighter: "#ccf9b6",
-        //   dark: "#2ca87f",
-        // },
-        // orange: {
-        //   light: "#e58a00",
-        // },
-        // pink: {
-        //   dark: "#fe3bab",
-        // },
-        // green: {},
-        // red: {
-        //   medium: "#D62626",
-        // },
       },
       fontFamily: {
         bold: ["Inter-Bold"],
@@ -85,6 +49,9 @@ module.exports = {
         latoR: ["lato-regular"],
         latoB: ["lato-bold"],
       },
+      backgroundImage: {
+        'Login': "url('../assets/images/LoginBg.jpg')",
+      }
     },
   },
     plugins: [],
