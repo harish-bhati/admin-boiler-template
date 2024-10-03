@@ -8,6 +8,7 @@ import List from "./pages/List";
 import Invoice from './pages/Invoice';
 import Login from "./pages/Login";
 import FormValidation from "./pages/FormValidation";
+import Login2 from "./components/Login2";
 
 function App() {
   const Layout = () => {
@@ -48,6 +49,10 @@ function App() {
     {
       path: "/login",
       element: <Login />,
+    },
+    {
+      path: "/Login2",
+      element: <Login2/>,
     },
   ]);
 
